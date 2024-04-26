@@ -15,7 +15,7 @@ const octokit = new Octokit({
     id: 75833,
     installationId: 11101003,
     clientId: "Iv1.8d2f7d117f535668",
-    clientSecret: process.env.clientSecret.replace(/\\n/g, '\n')  ? process.env.clientSecret.replace(/\\n/g, '\n')  : secrets.clientSecret.replace(/\\n/g, '\n') ,
+    clientSecret: process.env.clientSecret  ? process.env.clientSecret  : secrets.clientSecret ,
     privateKey: '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' ,
   },
 });
