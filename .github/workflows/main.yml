@@ -2,7 +2,7 @@ name: hackernews-daily-top
 
 on:
   schedule:
-  - cron: "5 * * * *"
+  - cron: "10 * * * *"
 
 jobs:
   fetch-top-posts:
