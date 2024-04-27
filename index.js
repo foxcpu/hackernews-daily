@@ -15,7 +15,7 @@ const run = async (date) => {
   const issueNumber = res.data.number;
 
   await issue.lock({
-    owner: 'headllines',
+    owner: 'foxcpu',
     repo: 'hackernews-daily', 
     issueNumber,
   });
